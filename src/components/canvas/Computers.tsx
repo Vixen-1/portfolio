@@ -1,9 +1,12 @@
-import { Suspense, FC } from "react";
+import { Suspense, FC, useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
-const Computers: FC = () => {
+interface Prop{
+  isMobile: boolean;
+}
+const Computers: FC = ({ isMobile }: Prop) => {
   const computer = useGLTF("/portfolio/desktop_pc/scene.gltf");
 
   return (
@@ -11,16 +14,17 @@ const Computers: FC = () => {
       <hemisphereLight intensity={3} groundColor="black" />
       <pointLight intensity={2} />
       <spotLight
-      position={[-20, 50,10]}
-      angle={0.12}
-      penumbra={1}
-      intensity={1}
-      castShadow
-      shadow-mapSize={1024} />
+        position={[-20, 50, 10]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize={1024}
+      />
       <primitive
         object={computer.scene}
-        scale={[0.75, 0.75, 0.75]}
-        position={[0, -3.25, -1.5]}
+        scale={isMobile? 0.5 : 0.75}
+        position={isMobile? [0, -3, -2.2]: [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -28,6 +32,25 @@ const Computers: FC = () => {
 };
 
 const ComputersCanvas: FC = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    // add a listener for changes in screen size
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    setIsMobile(mediaQuery.matches);
+
+     //set initial value of isMobile state variable
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    //define a callback func to handle changes in media query
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    //remove the listener when component is unmounted
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
   return (
     <Canvas
       frameloop="demand"
@@ -41,7 +64,7 @@ const ComputersCanvas: FC = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers />
+        <Computers isMobile={isMobile} />
       </Suspense>
       <Preload all />
     </Canvas>
