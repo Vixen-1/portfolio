@@ -39,8 +39,8 @@ const ServiceCard: FC<ServiceCardProps> = ({ title, index, icon }) => {
 const About: FC = () => {
   return (
     <>
-      <motion.div variants={textVariant(0)}>
-        {/* <p className={styles.sectionSubText}>Introduction</p> */}
+      <motion.div variants={textVariant(0.01)}>
+        <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p
@@ -54,7 +54,7 @@ const About: FC = () => {
         React Vite apps, and have optimized solutions to reduce latency by 30%
         with Next.js and Axios. Certified in Microfrontends with React and
         Object Oriented Programming in Java, I deploy scalable AWS solutions in
-        agile environments. Let's work together to bring your ideas to life!
+        agile environments.<br /> Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
