@@ -6,7 +6,7 @@ import CanvasLoader from "../Loader";
 interface Prop{
   isMobile: boolean;
 }
-const Computers: FC = ({ isMobile }: Prop) => {
+const Computers: FC<Prop> = ({ isMobile }) => {
   const computer = useGLTF("/portfolio/desktop_pc/scene.gltf");
 
   return (
@@ -23,7 +23,7 @@ const Computers: FC = ({ isMobile }: Prop) => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile? 0.5 : 0.75}
+        scale={isMobile? 0.5 : 0.7}
         position={isMobile? [0, -3, -2.2]: [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
