@@ -1,10 +1,23 @@
+import { Box } from "@mui/material";
+import {
+  About,
+  Contact,
+  Experience,
+  Feedbacks,
+  Hero,
+  Navbar,
+  StarsCanvas,
+  Tech,
+  Works,
+} from "./components";
 
 function App() {
-  
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">Welcome to My Portfolio</h1>
-    </div>
+    <Box className="relative z-0 bg-primary">
+      <Box className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <Navbar /> <Hero />
+      </Box>
+    </Box>
   );
 }
 
