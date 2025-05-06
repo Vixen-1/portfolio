@@ -3,7 +3,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "./utils/motion";
 import { styles } from "../styles";
 import { motion } from "framer-motion";
-import { projects, Project } from "../constants";
+import { projects } from "../constants";
 import Tilt from "react-parallax-tilt";
 import { github } from "../assets";
 
@@ -75,8 +75,8 @@ const Works: FC = () => {
   return (
     <>
       <motion.div variants={textVariant(0.1)}>
-        <p className={`${styles.sectionSubText} text-secondary`}>My Work</p>
-        <h2 className={`${styles.sectionHeadText} text-white`}>Projects.</h2>
+        <p className={`${styles.sectionSubText}`}>My Work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -85,7 +85,7 @@ const Works: FC = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
-          className="mt-3 text-green-300 text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-green-200 text-[17px] max-w-3xl leading-[30px]"
         >
           Following Projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
