@@ -13,10 +13,10 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-green-100`}>
             Hi, I'm <span className="text-[#915eff]">Ayushi</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-1 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-1 text-green-100`}>
             I develop 3-D visuals, User
             <br className="sm:block hidden" /> Interfaces and Web Applications
           </p>
@@ -27,7 +27,7 @@ const Hero = () => {
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex jultify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-green-200 flex jultify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -37,7 +37,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-3 h-3 rounded-full bg-green-300 mb-1"
             />
           </div>
         </a>
