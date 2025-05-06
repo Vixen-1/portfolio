@@ -46,15 +46,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "User Interface and User Experience",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Developer",
       icon: creator,
     },
   ];
@@ -116,29 +116,32 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Product Engineer (SDE)",
+      company_name: "Effigo Global",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Over 1+ year of experience in designing and maintaining scalable web applications with role-based access in a Scrum-based agile environment leading a team of 3 interns.",
+        "Built 2 core modules from scratch and upgraded 5 existing ones, optimizing UI/UX functionality.",
+        "Streamlined data fetching with Next.js and Axios, reducing data latency by 30%.",
+        "Improved front-end performance, cutting load times by 15% using lazy loading, code splitting, and Lighthouse audits.",
+        "Refactored legacy code using OOP principles, boosting efficiency by 25%.",
+        "Strengthened version control and CI/CD workflows using Git, GitHub, and automated pipelines.",
+        "Conducted unit testing with Jest and collaborated with QA teams to develop validation plans."
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Product Engineer Intern",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2024 - May 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built a custom form-builder tool (similar to Google Forms) for internal use, leveraging React for reusable UI components resulting in a 75% reduction in developer hours.",
+        "Created an interactive dashboard for company POCs, integrating real-time data visualization.",
+        "Deployed applications on AWS, ensuring scalability and reliability with 99.9% uptime.",
+        "Engineered a Java Spring Boot Learning Portal for course management, utilizing PostgreSQL for efficient data handling.",
       ],
     },
     {
@@ -146,7 +149,7 @@ import {
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2023 - Dec 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
