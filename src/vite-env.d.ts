@@ -1,10 +1,3 @@
-type AppConfigTypes = {
-    apiUrl: string;
-  };
-  
-  const appConfig: AppConfigTypes = {
-    apiUrl: import.meta.env.VITE_URL,
-  };
-  
-  export default appConfig;
-  
+VITE_APP_EMAILJS_SERVICE_ID=aa
+VITE_APP_EMAILJS_TEMPLATE_ID=aa
+VITE_APP_EMAILJS_PUBLIC_KEY=aa
