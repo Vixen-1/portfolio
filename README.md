@@ -1,54 +1,56 @@
-# React + TypeScript + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio showcasing my skills, projects, work experience, testimonials, and a contact form. Built with cutting-edge web technologies, this portfolio features smooth animations, 3D visuals, and a clean user interface to highlight my expertise as a developer.
 
-Currently, two official plugins are available:
+![Portfolio Screenshot](public/images/portfolio-screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Interactive 3D Animations**: Engaging visuals like a rotating starfield and Earth model using Three.js.
+- **Responsive Design**: Optimized for all devices with Tailwind CSS.
+- **Smooth Transitions**: Powered by Framer Motion for fluid animations.
+- **Project Showcase**: Tilt-enabled project cards with GitHub links using react-parallax-tilt.
+- **Contact Form**: Email integration with EmailJS for seamless communication.
+- **Type-Safe Codebase**: Built with TypeScript for robust development.
+- **Fast Development**: Powered by Vite for lightning-fast builds and hot module replacement.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+The portfolio leverages the following libraries and tools to deliver a high-quality user experience:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+| Library/Tool | Version | Description |
+|--------------|---------|-------------|
+| **[React](https://react.dev/)** | ^19.0.0 | Frontend framework for building dynamic user interfaces. |
+| **[TypeScript](https://www.typescriptlang.org/)** | ^5.6.2 | Adds static types to JavaScript for improved code reliability. |
+| **[Vite](https://vite.dev/)** | ^5.4.8 | Next-generation build tool for fast development and optimized builds. |
+| **[Tailwind CSS](https://tailwindcss.com/)** | 3.4.4 | Utility-first CSS framework for rapid and responsive styling. |
+| **[Framer Motion](https://www.framer.com/motion/)** | ^12.0.0 | Animation library for smooth and declarative animations. |
+| **[@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/)** | ^9.0.1 | React renderer for Three.js to create 3D scenes. |
+| **[@react-three/drei](https://github.com/pmndrs/drei)** | ^10.6.5 | Useful helpers and abstractions for `@react-three/fiber`. |
+| **[Three.js](https://threejs.org/)** | ^0.169.0 | JavaScript library for creating and animating 3D graphics. |
+| **[maath](https://github.com/pmndrs/maath)** | ^0.10.8 | Math utilities for 3D calculations, used in starfield animations. |
+| **[@emailjs/browser](https://www.emailjs.com/)** | ^4.0.0 | Client-side email sending for the contact form. |
+| **[react-parallax-tilt](https://github.com/mkosir/react-parallax-tilt)** | ^1.7.2 | Adds a tilt effect to project cards for an interactive feel. |
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Follow these steps to set up the portfolio locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Vixen-1/portfolio.git
+   cd portfolio
+
+2. **Install Dependencies**:
+  ```bash
+   npm install --legacy-peer-deps
+
+3. **Set Up Environment Variables**:
+  ```bash
+   VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+   VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+   VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+
+4. **Run the Development Server**:
+  ```bash
+  npm start
