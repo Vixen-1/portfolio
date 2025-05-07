@@ -21,7 +21,7 @@ function App() {
       <Experience />
       <Tech />
       <Works />
-      <Feedbacks />
+      {/* <Feedbacks /> */}
       <Box className="relative z-0">
         <Contact />
         <StarsCanvas />

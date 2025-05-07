@@ -14,7 +14,7 @@ const Computers: FC<Prop> = ({ isMobile }) => {
       <hemisphereLight intensity={3} groundColor="black" />
       <pointLight intensity={2} />
       <spotLight
-        position={[-20, 50, 10]}
+        position={[-20, 50, 20]}
         angle={0.12}
         penumbra={1}
         intensity={1}

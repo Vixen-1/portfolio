@@ -19,7 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    inotes,
     jobit,
     tripguide,
     threejs,
@@ -133,7 +133,7 @@ import {
     },
     {
       title: "Product Engineer Intern",
-      company_name: "Tesla",
+      company_name: "Effigo Global",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2024 - May 2024",
@@ -142,32 +142,6 @@ import {
         "Created an interactive dashboard for company POCs, integrating real-time data visualization.",
         "Deployed applications on AWS, ensuring scalability and reliability with 99.9% uptime.",
         "Engineered a Java Spring Boot Learning Portal for course management, utilizing PostgreSQL for efficient data handling.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "July 2023 - Dec 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
@@ -201,30 +175,34 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "I Notes Application",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to signin through google/github or via their own personal emails and to add or delete Notes. It also has an automated email nptification system",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MongoDb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Express",
           color: "pink-text-gradient",
         },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: inotes,
+      source_code_link: "https://github.com/Vixen-1/inotes",
     },
     {
-      name: "Job IT",
+      name: "Avatar for AI lipSync",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to speak anything and then Avatar will reply to them bbased on the data it got from the AI",
       tags: [
         {
           name: "react",
