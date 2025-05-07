@@ -39,7 +39,7 @@ const ComputersCanvas: FC = () => {
     setIsMobile(mediaQuery.matches);
 
      //set initial value of isMobile state variable
-    const handleMediaQueryChange = (event) => {
+    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
       setIsMobile(event.matches);
     };
 

@@ -18,6 +18,7 @@ const Stars: FC<StarsProps> = (props) => {
       ref.current.rotation.x -= delta / 10;
       ref.current.rotation.y -= delta / 15;
     }
+    console.log(state)
   });
 
   return (
