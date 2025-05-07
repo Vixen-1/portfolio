@@ -7,7 +7,7 @@ interface Prop{
   isMobile: boolean;
 }
 const Computers: FC<Prop> = ({ isMobile }) => {
-  const computer = useGLTF("/portfolio/desktop_pc/scene.gltf");
+  const computer = useGLTF("/desktop_pc/scene.gltf");
 
   return (
     <mesh>
