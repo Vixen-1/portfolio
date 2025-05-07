@@ -41,16 +41,20 @@ Follow these steps to set up the portfolio locally:
    git clone https://github.com/Vixen-1/portfolio.git
    cd portfolio
 
+
 2. **Install Dependencies**:
-  ```bash
+   ```bash
    npm install --legacy-peer-deps
 
+
 3. **Set Up Environment Variables**:
-  ```bash
+   ```bash
    VITE_APP_EMAILJS_SERVICE_ID=your_service_id
    VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
    VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 
+
+
 4. **Run the Development Server**:
-  ```bash
-  npm start
+   ```bash
+   npm start
