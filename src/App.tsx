@@ -4,7 +4,8 @@ import {
   Contact,
   Experience,
   // Feedbacks,
-  Hero,
+  // Hero,
+  Herov2,
   Navbar,
   StarsCanvas,
   Tech,
@@ -15,7 +16,7 @@ function App() {
   return (
     <Box className="relative z-0 bg-primary">
       <Box className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-        <Navbar /> <Hero />
+        <Navbar /> <Herov2 />
       </Box>
       <About />
       <Experience />

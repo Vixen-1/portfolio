@@ -19,7 +19,9 @@
   export const git: string;
   export const figma: string;
   export const docker: string;
+  export const ayushiImage: string;
   export const meta: string;
+  export const effigoLogo:string;
   export const starbucks: string;
   export const tesla: string;
   export const shopify: string;

@@ -16,13 +16,14 @@ import {
     figma,
     docker,
     // meta,
-    starbucks,
-    tesla,
+    // starbucks,
+    // tesla,
     // shopify,
     inotes,
     jobit,
     tripguide,
     threejs,
+    effigoLogo,
   } from "../../src/assets";
   
   export const navLinks = [
@@ -42,20 +43,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
       title: "React Developer",
+      icon: creator,
+    },
+    {
+      title: "React Native Developer",
       icon: mobile,
     },
     {
-      title: "User Interface and User Experience",
+      title: "UI/UX",
       icon: backend,
-    },
-    {
-      title: "Software Developer",
-      icon: creator,
     },
   ];
   
@@ -118,8 +119,8 @@ import {
     {
       title: "Product Engineer (SDE)",
       company_name: "Effigo Global",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: effigoLogo,
+      iconBg: "#E6DEDD",
       date: "June 2024 - Present",
       points: [
         "Over 1+ year of experience in designing and maintaining scalable web applications with role-based access in a Scrum-based agile environment leading a team of 3 interns.",
@@ -134,7 +135,7 @@ import {
     {
       title: "Product Engineer Intern",
       company_name: "Effigo Global",
-      icon: tesla,
+      icon: effigoLogo,
       iconBg: "#E6DEDD",
       date: "Jan 2024 - May 2024",
       points: [
@@ -177,7 +178,7 @@ import {
     {
       name: "I Notes Application",
       description:
-        "Web-based platform that allows users to signin through google/github or via their own personal emails and to add or delete Notes. It also has an automated email nptification system",
+        "Web-based platform that allows users to signin via their own personal emails and to add or delete Notes. It also has an automated email notification system",
       tags: [
         {
           name: "React",
@@ -202,23 +203,23 @@ import {
     {
       name: "Avatar for AI lipSync",
       description:
-        "Web application that enables users to speak anything and then Avatar will reply to them bbased on the data it got from the AI",
+        "Web application that enables users to upload their resume and then AI will scan the resume then generate interview questions which the user will answer.",
       tags: [
         {
-          name: "react",
+          name: "react native",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "machine learning",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vixen-1/AI-Avatar",
     },
     {
       name: "Trip Guide",

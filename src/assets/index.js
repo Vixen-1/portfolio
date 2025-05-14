@@ -30,7 +30,8 @@ import carrent from "./carrent.png";
 import inotes from "./inotes.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import effigoLogo from "./company/effigoLogo.png";
+import ayushiImage from "./ayushiImage.png";
 export {
   logo,
   backend,
@@ -38,9 +39,11 @@ export {
   mobile,
   web,
   github,
+  effigoLogo,
   menu,
   close,
   css,
+  ayushiImage,
   docker,
   figma,
   git,
