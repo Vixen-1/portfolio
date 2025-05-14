@@ -15,9 +15,9 @@ const Herov2 = () => {
       </div>
       <div className="container mx-auto text-left">
         <motion.div variants={zoomIn(1, 1)} className="text-left">
-          <h1 className="text-[40px] xl:text-[70px] leading-[1.1] font-semibold mt-9 xl:mt-0 mb-6">
-            Hello I'm <br />
-            <span className="text-green-200">Ayushi Saxena</span>
+          <h1 className="text-[26px] xl:text-[45px] leading-[1.1] font-semibold mt-9 xl:mt-0 mb-6">
+            Hi! I'm <br />
+            <span className="text-[40px] xl:text-[70px] text-green-200">Ayushi Saxena</span>
           </h1>
           <h3 className="text-[20px]">
             I'm a{" "}
