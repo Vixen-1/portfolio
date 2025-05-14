@@ -201,7 +201,7 @@ import {
       source_code_link: "https://github.com/Vixen-1/inotes",
     },
     {
-      name: "Avatar for AI lipSync",
+      name: "AI Interview",
       description:
         "Web application that enables users to upload their resume and then AI will scan the resume then generate interview questions which the user will answer.",
       tags: [

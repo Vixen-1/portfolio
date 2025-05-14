@@ -8,9 +8,13 @@ import { zoomIn } from "./utils/motion";
 
 const Herov2 = () => {
   return (
-    <section className="h-full">
-      <div className="container mx-auto h-full flex flex-col justify-center items-center">
-          <motion.div variants={zoomIn(1, 1)} className="text-center">
+    <section className="h-full flex flex-row gap-12">
+      <div className="flex flex-col justify-center items-center">
+          <div className="w-5 h-5 rounded-full bg-[#9152ff]" />
+          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+        </div>
+      <div className="container mx-auto text-left">
+          <motion.div variants={zoomIn(1, 1)} className="text-left">
             <h1 className="text-[48px] xl:text-[70px] leading-[1.1] font-semibold mb-6">
               Hello I'm <br />
               <span className="text-green-200">Ayushi Saxena</span>
@@ -22,7 +26,7 @@ const Herov2 = () => {
               React, Redux, Next, Express, Node and etc.
             </p>
 
-            <div className="flex flex-col justify-center items-center gap-8">
+            <div className="flex flex-row justify-start items-start gap-8">
               <Button
                 variant="outlined"
                 color="inherit"
