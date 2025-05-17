@@ -32,7 +32,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
         tiltMaxAngleY={45}
         scale={1}
         transitionSpeed={450}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[500px]"
       >
         <div className="relative w-full h-[230px]">
           <img

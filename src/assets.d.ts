@@ -21,6 +21,7 @@
   export const docker: string;
   export const ayushiImage: string;
   export const meta: string;
+  export const movie_app: string;
   export const effigoLogo:string;
   export const starbucks: string;
   export const tesla: string;

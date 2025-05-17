@@ -25,10 +25,8 @@ const Herov2 = () => {
               Software Developer
             </span>
           </h3>
-          <p className="max-w-[700px] mb-9 text-white/80 ">
-            I excel at crafting elegant digital experiences and I am proficient
-            in various programming languages and technologies like React, Redux,
-            Next, Express, Node and etc.
+          <p className="max-w-[700px] mb-9 mt-3 text-white/80 ">
+            I'm a passionate front-end developer who crafts elegant, user-centric digital experiences with expertise in JavaScript, TypeScript, React, React Native, Redux, Next.js, Express, and Node.js. Leveraging advanced technologies like Three.js, Framer Motion, and AI-driven tools, I build responsive, scalable applications, from dynamic movie discovery platforms to innovative AI-powered interview prep solutions.
           </p>
 
           <div className="flex flex-row justify-start items-start gap-8">

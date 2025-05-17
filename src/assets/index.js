@@ -32,11 +32,13 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import effigoLogo from "./company/effigoLogo.png";
 import ayushiImage from "./ayushiImage.png";
+import movie_app from './movie_app.png';
 export {
   logo,
   backend,
   creator,
   mobile,
+  movie_app,
   web,
   github,
   effigoLogo,

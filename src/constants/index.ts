@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
     effigoLogo,
+    movie_app,
   } from "../../src/assets";
   
   export const navLinks = [
@@ -47,15 +48,15 @@ import {
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "Web Developer",
       icon: creator,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Application Developer",
       icon: mobile,
     },
     {
-      title: "UI/UX",
+      title: "UI/UX Design",
       icon: backend,
     },
   ];
@@ -189,11 +190,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "AppWrite",
+          name: "Popularity algorithm",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: movie_app,
       source_code_link: "https://github.com/Vixen-1/movie-recommendor",
     },
     {
@@ -224,7 +225,7 @@ import {
     {
       name: "AI Interview",
       description:
-        "An AI-powered interview prep app where users upload resumes to generate tailored interview questions, answered via interaction with a lip-syncing 3D AI avatar. The app analyzes responses, providing a detailed performance report with improvement suggestions.",
+        "An AI-powered interview prep app where users upload resumes to generate tailored interview questions, answered via interaction with a 3D AI avatar. The app analyzes responses, providing a detailed performance report with improvement suggestions.",
       tags: [
         {
           name: "react",
@@ -235,11 +236,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "machine learning",
+          name: "AI/ML",
           color: "pink-text-gradient",
         },
         {
-          name: "Web Audio",
+          name: "Web Audio api",
           color: "green-text-gradient",
         },
       ],
