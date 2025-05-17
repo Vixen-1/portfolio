@@ -175,10 +175,31 @@ import {
   ];
   
   const projects = [
+      {
+      name: "Movie Recommendor",
+      description:
+        "A movie discovery app that showcases real-time trending films and personalized recommendations on the home page. Users can search for favorites, with a popularity algorithm highlighting top-searched movies.",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nativewind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AppWrite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/Vixen-1/movie-recommendor",
+    },
     {
       name: "I Notes Application",
       description:
-        "Web-based platform that allows users to signin via their own personal emails and to add or delete Notes. It also has an automated email notification system",
+        "A Notes Management Application enabling users to securely create, update, and delete personal notes with real-time state management. Built with React, TypeScript, and Material-UI, it features user authentication, and seamless API integration.",
       tags: [
         {
           name: "React",
@@ -193,7 +214,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Node",
+          name: "Typescript",
           color: "blue-text-gradient",
         },
       ],
@@ -203,10 +224,10 @@ import {
     {
       name: "AI Interview",
       description:
-        "Web application that enables users to upload their resume and then AI will scan the resume then generate interview questions which the user will answer.",
+        "An AI-powered interview prep app where users upload resumes to generate tailored interview questions, answered via interaction with a lip-syncing 3D AI avatar. The app analyzes responses, providing a detailed performance report with improvement suggestions.",
       tags: [
         {
-          name: "react native",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
@@ -217,30 +238,13 @@ import {
           name: "machine learning",
           color: "pink-text-gradient",
         },
+        {
+          name: "Web Audio",
+          color: "green-text-gradient",
+        },
       ],
       image: jobit,
       source_code_link: "https://github.com/Vixen-1/AI-Avatar",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
     },
   ];
   
