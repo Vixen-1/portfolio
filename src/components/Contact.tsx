@@ -46,7 +46,7 @@ const Contact: FC = () => {
           to_name: "Ayushi Saxena",
           from_email: form.email,
           to_email: "ayushisaxena24111999@gmail.com",
-          message: form.message,
+          message: `${form.name} having email ${form.email} sent this message: ${form.message}`,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
