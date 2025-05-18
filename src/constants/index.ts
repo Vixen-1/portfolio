@@ -21,7 +21,7 @@ import {
     // shopify,
     inotes,
     jobit,
-    tripguide,
+    // tripguide,
     threejs,
     effigoLogo,
     movie_app,
