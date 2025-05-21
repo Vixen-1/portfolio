@@ -177,20 +177,20 @@ import {
   
   const projects = [
       {
-      name: "Movie Recommendor",
+      name: "WatchWarden",
       description:
-        "A movie discovery app that showcases real-time trending films and personalized recommendations on the home page. Users can search for favorites, with a popularity algorithm highlighting top-searched movies.",
+        "A movie discovery app that showcases real-time trending films based on popular searches and personalized recommendations on the home page. Users can search for favorites, with a popularity algorithm highlighting top-searched movies.",
       tags: [
         {
           name: "React Native",
           color: "blue-text-gradient",
         },
         {
-          name: "Nativewind",
+          name: "nativewind",
           color: "green-text-gradient",
         },
         {
-          name: "Popularity algorithm",
+          name: "Appwrite",
           color: "pink-text-gradient",
         },
       ],
@@ -198,7 +198,7 @@ import {
       source_code_link: "https://github.com/Vixen-1/movie-recommendor",
     },
     {
-      name: "I Notes Application",
+      name: "TaskBeacon",
       description:
         "A Notes Management Application enabling users to securely create, update, and delete personal notes with real-time state management. Built with React, TypeScript, and Material-UI, it features user authentication, and seamless API integration.",
       tags: [
@@ -223,12 +223,12 @@ import {
       source_code_link: "https://github.com/Vixen-1/inotes",
     },
     {
-      name: "AI Interview",
+      name: "TalkBotix",
       description:
-        "An AI-powered interview prep app where users upload resumes to generate tailored interview questions, answered via interaction with a 3D AI avatar. The app analyzes responses, providing a detailed performance report with improvement suggestions.",
+        "An AI-powered interview prep app where users upload resumes or tell their skills to generate tailored interview questions, asked via interaction with AI. The app analyzes responses, providing a detailed performance report with improvement suggestions.",
       tags: [
         {
-          name: "react",
+          name: "next.js",
           color: "blue-text-gradient",
         },
         {
@@ -240,7 +240,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Web Audio api",
+          name: "Vapi",
           color: "green-text-gradient",
         },
       ],
