@@ -15,14 +15,9 @@ import {
     git,
     figma,
     docker,
-    // meta,
-    // starbucks,
-    // tesla,
-    // shopify,
     inotes,
-    jobit,
-    // tripguide,
     threejs,
+    voicevortex,
     effigoLogo,
     movie_app,
   } from "../../src/assets";
@@ -176,6 +171,31 @@ import {
   ];
   
   const projects = [
+     {
+      name: "VoiceVortex",
+      description:
+        "A FastAPI-based chatbot using LangChain and Hugging Face LLM to answer queries via MongoDB Atlas with vector search. Features include semantic query processing, popular question tracking, and keyword search, integrated with a React frontend.",
+      tags: [
+        {
+          name: "FastApi",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LangChain",
+          color: "green-text-gradient",
+        },
+        {
+          name: "LLM",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: voicevortex,
+      source_code_link: "https://github.com/Vixen-1/VoiceVortex",
+    },
       {
       name: "WatchWarden",
       description:
@@ -195,7 +215,7 @@ import {
         },
       ],
       image: movie_app,
-      source_code_link: "https://github.com/Vixen-1/movie-recommendor",
+      source_code_link: "https://github.com/Vixen-1/WatchWarden",
     },
     {
       name: "TaskBeacon",
@@ -220,32 +240,7 @@ import {
         },
       ],
       image: inotes,
-      source_code_link: "https://github.com/Vixen-1/inotes",
-    },
-    {
-      name: "TalkBotix",
-      description:
-        "An AI-powered interview prep app where users upload resumes or tell their skills to generate tailored interview questions, asked via interaction with AI. The app analyzes responses, providing a detailed performance report with improvement suggestions.",
-      tags: [
-        {
-          name: "next.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "three.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "AI/ML",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Vapi",
-          color: "green-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/Vixen-1/AI-Avatar",
+      source_code_link: "https://github.com/Vixen-1/TaskBeacon",
     },
   ];
   

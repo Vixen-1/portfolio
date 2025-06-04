@@ -10,6 +10,7 @@
   export const javascript: string;
   export const typescript: string;
   export const html: string;
+  export const voicevortex: string;
   export const css: string;
   export const reactjs: string;
   export const redux: string;
