@@ -11,6 +11,7 @@
   export const typescript: string;
   export const html: string;
   export const voicevortex: string;
+  export const talkBotix: string;
   export const css: string;
   export const reactjs: string;
   export const redux: string;

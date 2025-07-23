@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import voicevortex from "./voicevortex.png"
+import talkBotix from "./Talkbotix.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -53,6 +54,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  talkBotix,
   inotes,
   reactjs,
   redux,
