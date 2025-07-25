@@ -36,7 +36,7 @@ const Herov2 = () => {
               size="medium"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1KsuGK5cWxf6aG8JzDC-7St4mWHtAKsNL/view?usp=sharing",
+                  "https://drive.google.com/file/d/11SfpNWGav1Xh9ZQ4cuWTpiELdBjEnwc_/view?usp=sharing",
                   "_blank",
                   "noopener,noreferrer"
                 )
