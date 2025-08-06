@@ -47,8 +47,7 @@ const About: FC = () => {
         variants={fadeIn('down', 'spring', 0.1, 0.75)}
         className="mt-4 text-green-200 text-[17px] max-w-3xl leading-[30px]"
       >
-        I’m a Product Engineer (SDE) at Effigo Globals with over 1+ year of
-        experience, excelling in React, Redux, and MERN stack to build responsive, high-performance web applications. I can also create immersive 3D models using Three.js, seamlessly integrated into React Vite apps, and have optimized solutions to reduce latency by 30%. 
+        I’m a Software Developer at Effigo Globals excelling in MERN stack to build responsive, high-performance web applications. I can also create immersive 3D models using Three.js, seamlessly integrated into user interface, and have optimized solutions to reduce latency by 30%. 
         <br /> Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">

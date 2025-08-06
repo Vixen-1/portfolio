@@ -15,7 +15,7 @@ import {
   git,
   figma,
   docker,
-  inotes,
+  // inotes,
   threejs,
   voicevortex,
   talkBotix,
@@ -240,31 +240,31 @@ const projects = [
     image: movie_app,
     source_code_link: "https://github.com/Vixen-1/WatchWarden",
   },
-  {
-    name: "TaskBeacon",
-    description:
-      "A Notes Management Application enabling users to securely create, update, and delete personal notes with real-time state management. Built with React, TypeScript, and Material-UI, it features user authentication, and seamless API integration.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: inotes,
-    source_code_link: "https://github.com/Vixen-1/TaskBeacon",
-  },
+  // {
+  //   name: "TaskBeacon",
+  //   description:
+  //     "A Notes Management Application enabling users to securely create, update, and delete personal notes with real-time state management. Built with React, TypeScript, and Material-UI, it features user authentication, and seamless API integration.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "MongoDb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Express",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: inotes,
+  //   source_code_link: "https://github.com/Vixen-1/TaskBeacon",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

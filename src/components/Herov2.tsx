@@ -25,10 +25,12 @@ const Herov2 = () => {
               Software Developer
             </span>
           </h3>
-          <p className="max-w-[700px] mb-9 mt-3 text-white/80 ">
+          {/* <p className="max-w-[700px] mb-9 mt-3 text-white/80 ">
             I'm a passionate front-end developer who crafts elegant, user-centric digital experiences with expertise in JavaScript, TypeScript, React, React Native, Redux, Next.js, Express, and Node.js. Leveraging advanced technologies like Three.js, Framer Motion, and AI-driven tools, I build responsive, scalable applications, from dynamic movie discovery platforms to innovative AI-powered interview prep solutions.
+          </p> */}
+<p className="max-w-[700px] mb-9 mt-3 text-white/80 ">
+            I'm a Full Stack Developer with 1+ year of experience building dynamic and responsive web and mobile applications using React.js, Next.js, React Native, Express.js, Redux, Javascript and Typescript. Proficient in integrating AI-driven APIs and optimizing UI performance, eager to contribute to innovative startup projects.
           </p>
-
           <div className="flex flex-row justify-start items-start gap-8">
             <Button
               variant="outlined"
